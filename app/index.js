@@ -1,5 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api')
 const converter = require('./converter')
+const config = require('./config')
 
 const token = process.env.RANSOM_EMOJI_TOKEN
 const options = process.env.DEV ? {polling: true} : { webHook: { port : config.PORT, host : config.HOST }}

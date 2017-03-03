@@ -1,4 +1,4 @@
-const RANSOM_BOT_URI = 'https://edna-bot.herokuapp.com'
+const RANSOM_BOT_URI = 'https://ransom-emoji-bot.herokuapp.com'
 const HOST = '0.0.0.0'
 const PORT = process.env.PORT || 443
 
