@@ -2,7 +2,14 @@
   "name": "RansomEmojiBot",
   "version": "1.0.0",
   "description": "Ransom Emoji Generator Bot for Telegram ",
+  "scripts": {
+    "start": "node index.js"
+  },
   "main": "index.js",
   "author": "Nati",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "emoji-alphabet": "^1.0.3",
+    "node-telegram-bot-api": "^0.27.0"
+  }
 }
