@@ -1,0 +1,8 @@
+{
+  "name": "RansomEmojiBot",
+  "version": "1.0.0",
+  "description": "Ransom Emoji Generator Bot for Telegram ",
+  "main": "index.js",
+  "author": "Nati",
+  "license": "MIT"
+}
